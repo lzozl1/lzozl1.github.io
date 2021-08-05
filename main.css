@@ -137,13 +137,14 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
 
 
 @media (max-width:768px) {
-    body {color: #fff; color: #333;}
+    body {color: #333;}
 
-    section {background: #f2f2f2(26, 15, 77); }
+    .section {background:rgba(235, 232, 232, 0.7);}
+    .section:nth-child(odd) {background:#f2f2f2;}
 
 
-    header h1 {position: fixed;top: 30px; left: 30px;z-index: 999; color: #fff;}
-    header .mopen {position: fixed;top: 30px; right: 30px;z-index: 1000;font-size: 24px; color: #fff;}
+    header h1 {position: fixed;top: 30px; left: 30px;z-index: 999; color: #333;}
+    header .mopen {position: fixed;top: 30px; right: 30px;z-index: 1000;font-size: 24px; color: #333;}
 
     header .mopen:after {content: "\e91C"; font-family: xeicon!important;}
     header .mopen.on:after {content: "\e921";color: #333;}
@@ -189,13 +190,13 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
     .section .font {display: flex; }
     .section .font li {margin-right: 20px;}
 
-    .section .txt a {display: block; width: 100px; line-height: 30px; text-align: center; border: 1px solid rgb(255, 255, 255); }
+    .section .txt a {display: block; width: 100px; line-height: 30px; text-align: center; border: 1px solid rgb(0, 0, 0); }
 
     .section .video_case {padding:0px;border: 3px solid #ddd;}
     .section .video_case video {border-radius:0px;}
     .section .video_case iframe {width: 100%; height: 200px;}
 
-    .section .web {display: block; border: 0px dashed rgb(255, 255, 255); padding: 0; border-radius: 0; border: 3px solid #333;}
+    .section .web {display: block; padding: 0; border-radius: 0; border: 3px solid #333;}
     .section .web_case {height: 200px; overflow: hidden;}
     .section .web_case img {width: 100%; position: relative;transition: 4s;}
     .section .web_case:hover img {transform: translateY(calc(0));}
@@ -210,7 +211,7 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
     .section .visual_slider figure {padding: 0 25px;}
     .section .visual_slider img {width: 100%; border-radius: 50%;}
 
-    .section .slider_arrows i {position:absolute;top:50%;left:auto;font-size:50px;color:rgb(255, 255, 255);z-index:4;}
+    .section .slider_arrows i {position:absolute;top:50%;left:auto;font-size:50px;color:#333;z-index:4;}
 
     .section .slider_arrows i.xi-angle-right {margin-left:0;transform:translate(0,0); right: 0;}
     .section .slider_arrows i.xi-angle-left {margin-left:0;transform:translate(0,0); left: 0;}
@@ -218,7 +219,7 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
     .section .visual_slider .slick-dots {display: flex;justify-content: center;}
     .section .visual_slider .slick-dots li {width: 15px;height: 15px;background: rgba(255,0,0,0.5);border-radius: 50%; margin: 20px 4px;}
     .section .visual_slider .slick-dots button {display: none;}
-    .section .visual_slider .slick-dots li.slick-active {background: rgb(255, 255, 255)}
+    .section .visual_slider .slick-dots li.slick-active {background: #333}
 
 
 
