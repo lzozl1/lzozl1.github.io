@@ -59,7 +59,7 @@ text-shadow: 1px 1px 0 #333; }
 .section .color span.ffff00 {background: #ffff00;}
 .section .color span.blue {background: #336699;}
 
-.section .txt i {font-size: 24px; padding: 10px; background: rgb(26, 15, 77); color: #fff; margin-right: 10px; border-radius: 50%;}
+.section .txt i {font-size: 24px; padding: 10px; background: rgb(255,255,255); color: #333; margin-right: 10px; border-radius: 50%;}
 
 .section .txt h3 {font-size: 20px; font-weight: 500; margin-bottom: 14px; text-transform: uppercase;}
 
