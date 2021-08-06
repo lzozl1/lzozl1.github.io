@@ -282,7 +282,7 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
 
     .cover li a {display: block; line-height: 30px;}
 
-    .cover li a:before {content: "\eaf8";font-family: xeicon!important;margin-right:15px;color:black;transition:0.3s; font-size: 15px;}
+    .cover li a:before {content: "\eaf8";font-family: xeicon!important;margin-right:15px;color:rgb(255, 255, 255);transition:0.3s; font-size: 15px;}
     .cover li a:after {content: "more"; font-size: 10px; margin-left: 20px; color: rgb(255, 255, 255); opacity: 0;transition: 0.3s;}
 
 
