@@ -25,7 +25,7 @@ header h1 {position: fixed;top: 10px; left: 10px;z-index: 999; color: #fff;}
 header .mopen {position: fixed;top: 50px; right: 50px;z-index: 1000;font-size: 24px; color: #333;}
 
 header .mopen:after {content: "\e91C"; font-family: xeicon!important;}
-header .mopen.on:after {content: "\e921";color: #333;}
+header .mopen.on:after {content: "\e921";color: #fff;}
 
 nav {position: fixed;top: 50%; right: 50px; transform: translateY(-50%);z-index: 999;}
 nav ul {width: 50px;}
