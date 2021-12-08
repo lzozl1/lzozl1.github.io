@@ -16,11 +16,6 @@ body { background: #fff; color: black;}
 
 
 
-
-
-
-
-
 header h1 {position: fixed;top: 10px; left: 10px;z-index: 999; color: #fff;}
 header .mopen {position: fixed;top: 50px; right: 50px;z-index: 1000;font-size: 24px; color: #333;}
 
@@ -55,9 +50,9 @@ text-shadow: 1px 1px 0 #333; }
 .section .color span {display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: #fff; margin-right: 5px;}
 
 .section .color {display: flex;}
-.section .color span.ff0000 {background: #ff0000;}
-.section .color span.ffff00 {background: #ffff00;}
-.section .color span.blue {background: #336699;}
+.section .color li:nth-child(1)  span{background: #027027;}
+.section .color li:nth-child(2) span{background: #669933;}
+.section .color li:nth-child(3) span{background: #336699;}
 
 .section .txt i {font-size: 24px; padding: 10px; background: rgb(255,255,255); color: #333; margin-right: 10px; border-radius: 50%;}
 
@@ -222,11 +217,10 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
     .section .txt a {display: block; width: 100px;height: 30px; line-height: 30px; text-align: center; border: 1px solid #333; }
 
 
-    .section .video_case {background:url(./video_case.png) no-repeat center top;background-size:100% auto;padding:15px;position:relative;}
+    .section .video_case {background:url(./video_case.png) no-repeat center top;background-size:100% auto;padding:10px;position:relative;height: 350px;}
     .section .video_case video {border-radius:0;}
     .section .video_case iframe {width:100%;height:50vw;border-radius:0;}
-    .section .video_case:before {content:"";display:block;width:40px;height:40px;border-radius:50%;background:rgba(255,0,0,0.5);position:absolute;bottom:-10px;right:-10px;top:auto;left:auto;}
-    .section .video_case:after{content:"";display:block;width:20px;height:20px;border-radius:50%;background:rgba(255,255,0,0.5);position:absolute;top:-30px;left:-30px;}
+   
 
 
 
@@ -243,6 +237,10 @@ footer .to_top {position: fixed; bottom: 50px; right: 50px;font-size: 24px; z-in
     .section .visual_slider {width:auto;margin:0 auto;z-index:3;}
     .section .visual_slider figure {padding:0 25px;}
     .section .visual_slider img {width:100%;border-radius:50%;}
+    
+    .section .visual_slider:hover {transform: scale(1.4)}
+    
+    .section .visual_slider {width:325px; height:280px; overflow:hidden }
 
     .section .slider_arrows i {position:absolute;top:50%;left:auto;font-size:50px;color:rgb(255, 255, 255,);z-index:4;}
 
