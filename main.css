@@ -12,7 +12,8 @@ body { background: #fff; color: black;}
 .section:nth-child(3) {background:#ffc7c9;}
 .section:nth-child(4) {background:#ffc7c9;}
 .section:nth-child(5) {background:#ffc7c9;}
-.section:nth-child(6) {background: linear-gradient(#ffc7c9, #f74349);}
+.section:nth-child(6) {background:#ffc7c9;}
+.section:nth-child(7) {background: linear-gradient(#ffc7c9, #f74349);}
 
 
 
